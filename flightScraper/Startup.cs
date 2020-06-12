@@ -36,7 +36,7 @@ namespace flightScraper
             {
                 endpoints.MapGet("/", async context =>
                 {
-                    await context.Response.WriteAsync(GetHtml("https://smithave.com/").InnerHtml);
+                    await context.Response.WriteAsync(GetHtml("https://www.united.com/").InnerHtml);
                 });
             });
         }
